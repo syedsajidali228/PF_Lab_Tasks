@@ -11,6 +11,7 @@ int main() {
     
     int book_code;
     int original;
+    
     int reversed_num = 0;
     int digit;
 
@@ -22,6 +23,7 @@ int main() {
     while (book_code > 0) {
         
         digit = book_code % 10;
+        
         reversed_num = reversed_num * 10 + digit;
         book_code = book_code / 10;
         
