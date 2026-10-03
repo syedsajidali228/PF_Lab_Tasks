@@ -5,7 +5,7 @@
     Task: 08
 */
 
-#include <stdio.h>
+#include<stdio.h>
 
 
 int main() {
